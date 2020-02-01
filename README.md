@@ -1,2 +1,2 @@
 # t-vpn
-A VPN that runs on Linux and can be deployed to AWS / Azure
+A script that setups a VPN that runs on Linux. Used on instances deployed in AWS / Azure.
