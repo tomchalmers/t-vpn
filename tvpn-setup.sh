@@ -1,10 +1,10 @@
-# Layer Two Tunneling Protocol (L2TP) IPSEC Server
+# Setup Layer Two Tunneling Protocol (L2TP) IPSEC Server
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo \
 VPN_IPSEC_PSK=$TVPN_IPSEC_PSK \
 VPN_USER=$TVPN_USERNAME \
 VPN_PASSWORD=$TVPN_PASSWORD sh vpnsetup.sh
 
-# Point to point (PPTP) Server
+# Setup point to point (PPTP) Server
 apt-get install pptpd -y
 echo "localip 10.0.0.1" >> /etc/pptpd.conf
 echo "remoteip 10.0.0.100-200" >> /etc/pptpd.conf
