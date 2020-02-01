@@ -1,8 +1,8 @@
 # Layer Two Tunneling Protocol (L2TP) IPSEC Server
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo \
-VPN_IPSEC_PSK=$YOUR_IPSEC_PSK \
-VPN_USER=$YOUR_USERNAME \
-VPN_PASSWORD=$YOUR_PASSWORD sh vpnsetup.sh
+VPN_IPSEC_PSK=$TVPN_IPSEC_PSK \
+VPN_USER=$TVPN_USERNAME \
+VPN_PASSWORD=$TVPN_PASSWORD sh vpnsetup.sh
 
 # Point to point (PPTP) Server
 apt-get install pptpd -y
